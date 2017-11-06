@@ -1,0 +1,52 @@
+D:\Studying\7_semestr\AKG\Задания\Лабораторная работа №1\labexample_SDL_C#\Lab_example_C#\Lab1\bin\Debug\Lab1.exe.config
+D:\Studying\7_semestr\AKG\Задания\Лабораторная работа №1\labexample_SDL_C#\Lab_example_C#\Lab1\bin\Debug\Lab1.exe
+D:\Studying\7_semestr\AKG\Задания\Лабораторная работа №1\labexample_SDL_C#\Lab_example_C#\Lab1\bin\Debug\Lab1.pdb
+D:\Studying\7_semestr\AKG\Задания\Лабораторная работа №1\labexample_SDL_C#\Lab_example_C#\Lab1\obj\Debug\Lab1.csprojResolveAssemblyReference.cache
+D:\Studying\7_semestr\AKG\Задания\Лабораторная работа №1\labexample_SDL_C#\Lab_example_C#\Lab1\obj\Debug\Lab1.MainForm.resources
+D:\Studying\7_semestr\AKG\Задания\Лабораторная работа №1\labexample_SDL_C#\Lab_example_C#\Lab1\obj\Debug\Lab1.Properties.Resources.resources
+D:\Studying\7_semestr\AKG\Задания\Лабораторная работа №1\labexample_SDL_C#\Lab_example_C#\Lab1\obj\Debug\Lab1.csproj.GenerateResource.Cache
+D:\Studying\7_semestr\AKG\Задания\Лабораторная работа №1\labexample_SDL_C#\Lab_example_C#\Lab1\obj\Debug\Lab1.csproj.CoreCompileInputs.cache
+D:\Studying\7_semestr\AKG\Задания\Лабораторная работа №1\labexample_SDL_C#\Lab_example_C#\Lab1\obj\Debug\Lab1.exe
+D:\Studying\7_semestr\AKG\Задания\Лабораторная работа №1\labexample_SDL_C#\Lab_example_C#\Lab1\obj\Debug\Lab1.pdb
+D:\Studying\7_semestr\AKG\Задания\Лабораторная работа №1\labexample_SDL_C#\Lab_example_C#\Lab1\bin\Debug\SDL2-CS.dll
+D:\Studying\7_semestr\AKG\Задания\Лабораторная работа №1\labexample_SDL_C#\Lab_example_C#\Lab1\bin\Debug\SDL2-CS.xml
+D:\Studying\7_semestr\AKG\Задания\Лабораторная работа №1\labexample_SDL_C#\Lab_example_C#\Lab1\bin\Debug\SDL2-CS.dll.config
+e:\Занятия\Курс 4\AKG\Задания\Лабораторная работа №1\labexample_SDL_C#\Lab_example_C#\Lab1\bin\Debug\Lab1.exe.config
+e:\Занятия\Курс 4\AKG\Задания\Лабораторная работа №1\labexample_SDL_C#\Lab_example_C#\Lab1\bin\Debug\Lab1.exe
+e:\Занятия\Курс 4\AKG\Задания\Лабораторная работа №1\labexample_SDL_C#\Lab_example_C#\Lab1\bin\Debug\Lab1.pdb
+e:\Занятия\Курс 4\AKG\Задания\Лабораторная работа №1\labexample_SDL_C#\Lab_example_C#\Lab1\bin\Debug\SDL2-CS.dll
+e:\Занятия\Курс 4\AKG\Задания\Лабораторная работа №1\labexample_SDL_C#\Lab_example_C#\Lab1\bin\Debug\SDL2-CS.xml
+e:\Занятия\Курс 4\AKG\Задания\Лабораторная работа №1\labexample_SDL_C#\Lab_example_C#\Lab1\bin\Debug\SDL2-CS.dll.config
+e:\Занятия\Курс 4\AKG\Задания\Лабораторная работа №1\labexample_SDL_C#\Lab_example_C#\Lab1\obj\Debug\Lab1.csprojResolveAssemblyReference.cache
+e:\Занятия\Курс 4\AKG\Задания\Лабораторная работа №1\labexample_SDL_C#\Lab_example_C#\Lab1\obj\Debug\Lab1.MainForm.resources
+e:\Занятия\Курс 4\AKG\Задания\Лабораторная работа №1\labexample_SDL_C#\Lab_example_C#\Lab1\obj\Debug\Lab1.Properties.Resources.resources
+e:\Занятия\Курс 4\AKG\Задания\Лабораторная работа №1\labexample_SDL_C#\Lab_example_C#\Lab1\obj\Debug\Lab1.csproj.GenerateResource.Cache
+e:\Занятия\Курс 4\AKG\Задания\Лабораторная работа №1\labexample_SDL_C#\Lab_example_C#\Lab1\obj\Debug\Lab1.csproj.CoreCompileInputs.cache
+e:\Занятия\Курс 4\AKG\Задания\Лабораторная работа №1\labexample_SDL_C#\Lab_example_C#\Lab1\obj\Debug\Lab1.exe
+e:\Занятия\Курс 4\AKG\Задания\Лабораторная работа №1\labexample_SDL_C#\Lab_example_C#\Lab1\obj\Debug\Lab1.pdb
+e:\Занятия\Курс 4\AKG\Задания\Лабораторная работа №3\labexample_SDL_C#\Lab_example_C#\Lab1\obj\Debug\Lab1.csprojResolveAssemblyReference.cache
+e:\Занятия\Курс 4\AKG\Задания\Лабораторная работа №3\labexample_SDL_C#\Lab_example_C#\Lab1\obj\Debug\Lab1.MainForm.resources
+e:\Занятия\Курс 4\AKG\Задания\Лабораторная работа №3\labexample_SDL_C#\Lab_example_C#\Lab1\obj\Debug\Lab1.Properties.Resources.resources
+e:\Занятия\Курс 4\AKG\Задания\Лабораторная работа №3\labexample_SDL_C#\Lab_example_C#\Lab1\obj\Debug\Lab1.csproj.GenerateResource.Cache
+e:\Занятия\Курс 4\AKG\Задания\Лабораторная работа №3\labexample_SDL_C#\Lab_example_C#\Lab1\obj\Debug\Lab1.csproj.CoreCompileInputs.cache
+e:\Занятия\Курс 4\AKG\Задания\Лабораторная работа №3\labexample_SDL_C#\Lab_example_C#\Lab1\obj\Debug\Lab1.exe
+e:\Занятия\Курс 4\AKG\Задания\Лабораторная работа №3\labexample_SDL_C#\Lab_example_C#\Lab1\obj\Debug\Lab1.pdb
+e:\Занятия\Курс 4\AKG\Задания\Лабораторная работа №3\labexample_SDL_C#\Lab_example_C#\Lab1\bin\Debug\Lab1.exe.config
+e:\Занятия\Курс 4\AKG\Задания\Лабораторная работа №3\labexample_SDL_C#\Lab_example_C#\Lab1\bin\Debug\Lab1.exe
+e:\Занятия\Курс 4\AKG\Задания\Лабораторная работа №3\labexample_SDL_C#\Lab_example_C#\Lab1\bin\Debug\Lab1.pdb
+e:\Занятия\Курс 4\AKG\Задания\Лабораторная работа №3\labexample_SDL_C#\Lab_example_C#\Lab1\bin\Debug\SDL2-CS.dll
+e:\Занятия\Курс 4\AKG\Задания\Лабораторная работа №3\labexample_SDL_C#\Lab_example_C#\Lab1\bin\Debug\SDL2-CS.xml
+e:\Занятия\Курс 4\AKG\Задания\Лабораторная работа №3\labexample_SDL_C#\Lab_example_C#\Lab1\bin\Debug\SDL2-CS.dll.config
+C:\Users\alexa\Downloads\Laboratornayarabota_3\Лабораторная работа №3\labexample_SDL_C#\Lab_example_C#\Lab1\bin\Debug\Lab1.exe.config
+C:\Users\alexa\Downloads\Laboratornayarabota_3\Лабораторная работа №3\labexample_SDL_C#\Lab_example_C#\Lab1\bin\Debug\Lab1.exe
+C:\Users\alexa\Downloads\Laboratornayarabota_3\Лабораторная работа №3\labexample_SDL_C#\Lab_example_C#\Lab1\bin\Debug\Lab1.pdb
+C:\Users\alexa\Downloads\Laboratornayarabota_3\Лабораторная работа №3\labexample_SDL_C#\Lab_example_C#\Lab1\bin\Debug\SDL2-CS.dll
+C:\Users\alexa\Downloads\Laboratornayarabota_3\Лабораторная работа №3\labexample_SDL_C#\Lab_example_C#\Lab1\bin\Debug\SDL2-CS.xml
+C:\Users\alexa\Downloads\Laboratornayarabota_3\Лабораторная работа №3\labexample_SDL_C#\Lab_example_C#\Lab1\bin\Debug\SDL2-CS.dll.config
+C:\Users\alexa\Downloads\Laboratornayarabota_3\Лабораторная работа №3\labexample_SDL_C#\Lab_example_C#\Lab1\obj\Debug\Lab1.csprojResolveAssemblyReference.cache
+C:\Users\alexa\Downloads\Laboratornayarabota_3\Лабораторная работа №3\labexample_SDL_C#\Lab_example_C#\Lab1\obj\Debug\Lab1.MainForm.resources
+C:\Users\alexa\Downloads\Laboratornayarabota_3\Лабораторная работа №3\labexample_SDL_C#\Lab_example_C#\Lab1\obj\Debug\Lab1.Properties.Resources.resources
+C:\Users\alexa\Downloads\Laboratornayarabota_3\Лабораторная работа №3\labexample_SDL_C#\Lab_example_C#\Lab1\obj\Debug\Lab1.csproj.GenerateResource.Cache
+C:\Users\alexa\Downloads\Laboratornayarabota_3\Лабораторная работа №3\labexample_SDL_C#\Lab_example_C#\Lab1\obj\Debug\Lab1.csproj.CoreCompileInputs.cache
+C:\Users\alexa\Downloads\Laboratornayarabota_3\Лабораторная работа №3\labexample_SDL_C#\Lab_example_C#\Lab1\obj\Debug\Lab1.exe
+C:\Users\alexa\Downloads\Laboratornayarabota_3\Лабораторная работа №3\labexample_SDL_C#\Lab_example_C#\Lab1\obj\Debug\Lab1.pdb
