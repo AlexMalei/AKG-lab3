@@ -12,9 +12,9 @@ namespace Lab1
     {
         const int SCREEN_WIDTH = 640;
         const int SCREEN_HEIGHT = 640;
-        const int DY = 1;
-        const int DX = 1;
-        const double ANGLE = Math.PI / 180;
+        const int DY = 2;
+        const int DX = 2;
+        const double ANGLE = Math.PI / 90;
 
         private IntPtr renderer;
 
@@ -39,11 +39,11 @@ namespace Lab1
                 list.Add(new Point(200, 300));
                 var figure = new PolygonFigure(list, new Point(250, 250));
                 list.Clear();
-                list.Add(new Point(250, 250));
                 list.Add(new Point(300, 300));
-                list.Add(new Point(250, 350));
-                list.Add(new Point(200, 300));
-                var figure2 = new PolygonFigure(list, new Point(300, 300));
+                list.Add(new Point(400, 300));
+                list.Add(new Point(400, 400));
+                list.Add(new Point(300, 400));
+                var figure2 = new PolygonFigure(list, new Point(350, 350));
                 bool quit = false;
                 while (!quit)
                 {

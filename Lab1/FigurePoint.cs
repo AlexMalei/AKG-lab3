@@ -12,19 +12,22 @@ namespace Lab1
         public int x;
         public int y;
         public LineDrawType lineType;
+        public bool isFigureNode;
 
-        public FigurePoint(int x, int y, LineDrawType lineType)
+        public FigurePoint(int x, int y, LineDrawType lineType, bool isNode)
         {
             this.x = x;
             this.y = y;
             this.lineType = lineType;
+            isFigureNode = isNode;
         }
 
-        public FigurePoint(Point point, LineDrawType lineType)
+        public FigurePoint(Point point, LineDrawType lineType, bool isNode)
         {
             x = point.X;
             y = point.Y;
             this.lineType = lineType;
+            isFigureNode = isNode;
         }
 
         public FigurePoint(Point point)
@@ -32,6 +35,7 @@ namespace Lab1
             x = point.X;
             y = point.Y;
             this.lineType = LineDrawType.Solid;
+            isFigureNode = false;
         }
 
         public Point ToPoint()

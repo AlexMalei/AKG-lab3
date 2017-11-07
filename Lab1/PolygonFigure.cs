@@ -9,6 +9,7 @@ namespace Lab1
 {
     class PolygonFigure
     {
+        private List<FigurePoint> NoRotatePoints { get; set; }
         public List<FigurePoint> Points { get; private set; }
         public Point RotatePoint;
         public delegate void DrawLine(int x1, int y1, int x2, int y2, Color color);
@@ -17,45 +18,46 @@ namespace Lab1
         public PolygonFigure(List<Point> points, Point rotatePoint)
         {
             Points = points.Select(p => new FigurePoint(p)).ToList();
+            NoRotatePoints = Points.Select(p => new FigurePoint(p.ToPoint())).ToList();
             RotatePoint = rotatePoint;
         }
 
         private PolygonFigure(List<Point> points)
         {
             Points = points.Select(p => new FigurePoint(p)).ToList();
+            NoRotatePoints = Points.Select(p => new FigurePoint(p.ToPoint())).ToList();
         }
 
         public void MoveX(int dx)
         {
             Points.ForEach(p => p.x += dx);
+            NoRotatePoints.ForEach(p => p.x += dx);
             RotatePoint.X += dx;
         }
 
         public void MoveY(int dy)
         {
             Points.ForEach(p => p.y += dy);
+            NoRotatePoints.ForEach(p => p.y += dy);
             RotatePoint.Y += dy;
         }
 
         public void Rotate(double angle)
         {
             this.angle += angle % Math.PI*2;
+            for (int j = 0; j < NoRotatePoints.Count; j++)
+            {
+                Points[j].x = (int)Math.Round((NoRotatePoints[j].x - RotatePoint.X) * Math.Cos(this.angle) - (NoRotatePoints[j].y - RotatePoint.Y) * Math.Sin(this.angle) + RotatePoint.X);
+                Points[j].y = (int)Math.Round((NoRotatePoints[j].x - RotatePoint.X) * Math.Sin(this.angle) + (NoRotatePoints[j].y - RotatePoint.Y) * Math.Cos(this.angle) + RotatePoint.Y);
+            }
         }
 
         public void DrawFigure(DrawLine visLineFunc)
         {
-            List<FigurePoint> fp = new List<FigurePoint>();
-            for (int j = 0; j < Points.Count; j++)
-            {
-                FigurePoint p = new FigurePoint(0, 0, Points[j].lineType);
-                p.x = (int)Math.Round((Points[j].x - RotatePoint.X) * Math.Cos(angle) - (Points[j].y - RotatePoint.Y) * Math.Sin(angle) + RotatePoint.X);
-                p.y = (int)Math.Round((Points[j].x - RotatePoint.X) * Math.Sin(angle) + (Points[j].y - RotatePoint.Y) * Math.Cos(angle) + RotatePoint.Y);
-                fp.Add(p);
-            }
-            for (int i = 0; i < fp.Count; i++)
+            for (int i = 0; i < Points.Count; i++)
             {
                 var j = (i + 1) % Points.Count;
-                visLineFunc(fp[i].x, fp[i].y, fp[j].x, fp[j].y, Color.Black);
+                visLineFunc(Points[i].x, Points[i].y, Points[j].x, Points[j].y, Color.Black);
             }
         }
 
@@ -80,15 +82,7 @@ namespace Lab1
         private PolygonFigure GenerateClippedFigure(PolygonFigure clippingFigure)
         {
             int i;
-            List<FigurePoint> fp = new List<FigurePoint>();
-            for (int j = 0; j < Points.Count; j++)
-            {
-                FigurePoint p = new FigurePoint(0, 0, Points[j].lineType);
-                p.x = (int)Math.Round((Points[j].x - RotatePoint.X) * Math.Cos(angle) - (Points[j].y - RotatePoint.Y) * Math.Sin(angle) + RotatePoint.X);
-                p.y = (int)Math.Round((Points[j].x - RotatePoint.X) * Math.Sin(angle) + (Points[j].y - RotatePoint.Y) * Math.Cos(angle) + RotatePoint.Y);
-                fp.Add(p);
-            }
-            var clippedFigure = new PolygonFigure(fp.Select(p => p.ToPoint()).ToList());
+            var clippedFigure = new PolygonFigure(Points.Select(p => p.ToPoint()).ToList());
             i = 0;
             while (i < clippedFigure.Points.Count)
             {

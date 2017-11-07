@@ -122,7 +122,15 @@ namespace Lab1
 
         private int GeneralizedXFormule()
         {
-            return (int)Math.Round((Fp1.y - Cp1.y + Cp1.x * Cutk - Fp1.x * Figk) / (Cutk - Figk));
+            var x1 = Fp1.x;
+            var x2 = Fp2.x;
+            var x3 = Cp1.x;
+            var x4 = Cp2.x;
+            var y1 = Fp1.y;
+            var y2 = Fp2.y;
+            var y3 = Cp1.y;
+            var y4 = Cp2.y;
+            return (int)Math.Round((double)(x1*(x4-x3)*(y2-y1)-x3*(y4-y3)*(x2-x1)+(y3-y1)*(x2-x1)*(x4-x3))/((x4-x3)*(y2-y1)-(y4-y3)*(x2-x1)));
         }
 
         private int CutterVerticalYFormule()
